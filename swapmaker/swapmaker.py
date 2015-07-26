@@ -25,6 +25,9 @@ __author__="Daniel Berenguer"
 __date__ ="$Apr 23, 2012"
 #########################################################################
 
+import wxversion
+wxversion.select('2.8')
+
 from wizard import SwapWizard
 from errors import SwapMakerException
 
